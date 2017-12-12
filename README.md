@@ -1,11 +1,11 @@
-# Sign-In
+# Sign-In App
 
 The `sign-in` application is a simple front-end application that runs on a mobile device, e.g., an iPad or an Android tablet that communicated with a back-end database.  This application is used as a kiosk device to collect information on visitors for a corporation.
 
 ## Nonfunctional Requirements
 Design & Tool Selection Analysis
 
-**MEAN**
+**MEVN**
 
 This applicattion utilizes the **MEVN** (MongoDB, Express, Vue.js, Node.js) Web Development.
 
@@ -19,7 +19,7 @@ To create this login **Node.js** was utilized because it is build from JavaScrip
 
 **Vue.js**
 
-Vue.js is a powerful JavaScript framework 
+Vue.js is a powerful JavaScript framework that is great for web applications using Node.js. Vue.js comes from the open source community and provides web development teams with invaluable set of resrouces so engineer can can overcome obstacles and challenges. The open source community is very active and developers can always refer to online documentation or tutorials.
 
 ### Documentation
 
@@ -62,8 +62,8 @@ $ ./bin/frun-front-end.sh &
 ```
 
 
-## Architecture discussion 
-(no more than one paragraph)
+## Architecture Discussion 
+**Sign-In App** uses a two-tier architecture which is also known as the Client-Server architecture. This application can be run locally on a user's machine or it can be deployed onto an online web server such as DigitalOcean or Amazaon Web Service.
 
 ## Plan of Action
 For the plan of action, you can use Markdown's tickmark tool, e.g.
@@ -77,16 +77,13 @@ For the plan of action, you can use Markdown's tickmark tool, e.g.
 - [x] Deployment
 
 
-## Additional features
-
-You may implement additional features (not required) for improved grade scale:
+## Features
 
 - Admin authentication before accessing the data table
-- Admin view has a page pagination
+- Admin view has a page with infinig scrolling
 - Form entry validation
 - Deploy the client on to a real tablet
 - Unit testing
-- Email firing off to a designated admin address when a visitor has signed in
 
 
 ## Visitor's View
@@ -111,6 +108,11 @@ The `sign-in` application offers a password-protected admin view.  This view lis
 
 ![View of Admin Page](resources/images/toro3.png)
 
+## iPad View (Visitors)
+
+![View of Admin Page](resources/images/toro4.png)
 
 
+## iPad View (Admin)
 
+![View of Admin Page](resources/images/toro5.png)

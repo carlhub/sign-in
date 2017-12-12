@@ -82,8 +82,6 @@ For the plan of action, you can use Markdown's tickmark tool, e.g.
 - Admin authentication before accessing the data table
 - Admin view has a page with infinig scrolling
 - Form entry validation
-- Deploy the client on to a real tablet
-- Unit testing
 
 
 ## Visitor's View

@@ -7,7 +7,7 @@
       <div class="form-group">
         <input type="password" class="form-control" id="password" placeholder="Password" v-model="password" name="password">
       </div>
-        <button class="btn btn-success" type="submit">Login</button>
+        <button class="btn btn-success" type="submit">Admin Login</button>
       </form>
 
   <li v-for="msg in messages">

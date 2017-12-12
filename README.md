@@ -86,13 +86,13 @@ The `sign-in` application presents to users a web form asking for some necessary
 
 When a visitor hits `submit` the form is sent to the server and stored in a database.  The application is then redirected back to the login screen.
 
-![View of Visitor Page](resources/images/sign-up.png)
+![View of Visitor Page](resources/images/toro1.png)
 
 ## Admin View
 
 The `sign-in` application offers a password-protected admin view.  This view lists all the data from the database as a table.
 
-![View of Admin Page](resources/images/admin.png)
+![View of Admin Page](resources/images/toro3.png)
 
 
 

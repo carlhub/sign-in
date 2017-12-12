@@ -24,7 +24,6 @@ mongoose.connect(process.env.MONGO_URI);
 
 let app = express()
 
-
 app.use(express.static(path.join(__dirname, './dist')))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))

@@ -66,6 +66,26 @@ export const registerUser = ({commit}, userPayload) => {
   })
 }
 
+export const registerVisitor = ({commit}, userPayload) => {
+  return new Promise((resolve, reject) => {
+    fetch(`/visitors/register`, {
+      method: 'POST',
+      redirect: 'follow',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(userPayload)
+    })
+    .then(res => {
+      resolve(res)
+    })
+    .then(err => {
+      reject(err)
+    })
+  })
+}
+
 export const login = ({commit}) => {
   axios.get('/isauth')
   .then(function (response) {

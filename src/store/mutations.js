@@ -12,7 +12,8 @@ export const mutations = {
     state.counts.count = count_payload
   },
   [types.REGISTER] (state, user_payload) {
-    state.user = user_payload
+    state.visitor = visitor.user_payload
+    //state.user = user_payload    
   },
   [types.LOGIN] (state, user_payload) {
     state.user = user_payload

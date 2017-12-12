@@ -53,7 +53,7 @@ router.get('/github/callback',
 
 /* Email/password */
 router.post('/local',
-  passport.authenticate('local', { failureRedirect: '/login' , successRedirect: '/' }),
+  passport.authenticate('local', { failureRedirect: '/login' , successRedirect: '/admin' }),
   function(req, res) {
     res.redirect('/')
   })

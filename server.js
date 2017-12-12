@@ -13,7 +13,8 @@ const express = require('express'),
       posts = require('./server/routes/posts'),
       admin = require('./server/routes/admin'),
       MongoStore = require('connect-mongo')(session),
-      InfiniteLoading = require('vue-infinite-loading')
+      InfiniteLoading = require('vue-infinite-loading'),
+      visitors = require('./server/routes/visitors')
 
 require('dotenv').load();
 require('./passport')(passport)
@@ -45,6 +46,7 @@ app.use('/users', users),
 app.use('/auth', auth),
 app.use('/count', count),
 app.use('/posts', posts),
+app.use('/visitors', visitors),
 app.use('/', index)
 
 /* Catch all errors and log them. */

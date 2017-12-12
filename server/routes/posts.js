@@ -4,7 +4,6 @@ const express = require('express'),
       Post = require('../models/post')
 
       
-
 module.exports = (() => {
 
 'use strict';

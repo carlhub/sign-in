@@ -10,7 +10,8 @@ const state = {
   counts: {
     count: -1
   },
-  posts: {}
+  posts: {},
+  visitor: {}
 }
 
 export default new Vuex.Store({

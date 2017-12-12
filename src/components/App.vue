@@ -1,10 +1,16 @@
 <template>
   <div id="app">
-  <img src="https://images.signaturea.com/sa/assets/logos/page_seals/2302_seal_foil.png" alt="Avatar" style="width:10% height=10%"  class="w3-circle w3-margin-top"><br>
-    <router-link to="/">Home</router-link>
-    <a v-if="!this.$store.state.user.displayName" href="/register" @click="register">Register</a>
-    <a v-if="this.$store.state.user.displayName" href="/logout" @click="logout">Logout</a>
-    <router-link v-else to="/login">Login</router-link>
+  <img src="https://www.csudh.edu/Assets/uploads/images/home/audience-give.JPG" alt="Avatar" style="width:0.1% height=0.1%"  class="w3-circle w3-margin-top"><br>
+       
+    <div v-if="this.$store.state.user.displayName">      
+      <a href="/admin" @click="admin">Admin Home</a><br>
+      <a  href="/logout" @click="logout">Logout</a>
+    </div>
+
+    <div  v-else to="/login">
+      <router-link to="/">Home</router-link>
+      <router-link to="/login">Admin</router-link>
+    </div>
     <h1>{{ title }}</h1>
     <hr />
     <router-view />
@@ -16,7 +22,7 @@ export default {
   name: 'app',
   data () {
     return {
-      title: 'Toro Net'
+      title: 'Sign In App'
     }
   },
   methods: {

@@ -1,16 +1,19 @@
-# sign-in
+# Sign-In
 
 The `sign-in` application is a simple front-end application that runs on a mobile device, e.g., an iPad or an Android tablet that communicated with a back-end database.  This application is used as a kiosk device to collect information on visitors for a corporation.
 
 ## Nonfunctional Requirements
 Design & Tool Selection Analysis
 
-This applicattion utilizes the MEAN (MongoDB, AngularJS, Express, Node.js) Web Development Framework. Instead of AngularJS, Vue.js is used.
+This applicattion utilizes the **MEAN** (MongoDB, AngularJS, Express, Node.js) Web Development Framework. Instead of AngularJS, Vue.js is used.
 
-Framework Evaluation
-Document Evaluation
-NodeJS
-MongoDB
+**MongoDB** was chosen because it is scalable and much simpler to deply than traditional SQL databases. MongoDB allows for fast and flexible creation data schema. Administrators may easily expand data requirements by adding more fields. Designers may also change the data type for integrity reasons. Some fields may become necessary and MongoDB allows developers to easily adjust contraints.
+
+For Project Documentation the simple **md** markdown is perferct to simple and easy to access information.
+
+To create this login **Node.js** was utilized because it is build from JavaScript which makes it perfect for web environments. Node.js is event-driven, non-blocking as well as lightweight and efficient. One big advantage of Node.js is its lage package ecosystem beause it is one of the biggest in the open source world.
+
+Vue.js 
 
 
 ## Installaction Instructions
@@ -54,12 +57,15 @@ $ ./bin/frun-front-end.sh &
 ## Plan of Action
 For the plan of action, you can use Markdown's tickmark tool, e.g.
 
-```
+
 - [x] Nonfunctional analysis
-- [ ] Architecture design
-- [ ] Test deployment
-...
-```
+- [x] Functional Requirements
+- [x] Architecture 
+- [x] Design
+- [x] Test
+- [x] Deployment
+
+
 ## Additional features
 
 You may implement additional features (not required) for improved grade scale:

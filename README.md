@@ -5,16 +5,27 @@ The `sign-in` application is a simple front-end application that runs on a mobil
 ## Nonfunctional Requirements
 Design & Tool Selection Analysis
 
-This applicattion utilizes the **MEAN** (MongoDB, AngularJS, Express, Node.js) Web Development Framework. Instead of AngularJS, Vue.js is used.
+**MEAN**
+
+This applicattion utilizes the **MEVN** (MongoDB, Express, Vue.js, Node.js) Web Development.
+
+**MongoDB**
 
 **MongoDB** was chosen because it is scalable and much simpler to deply than traditional SQL databases. MongoDB allows for fast and flexible creation data schema. Administrators may easily expand data requirements by adding more fields. Designers may also change the data type for integrity reasons. Some fields may become necessary and MongoDB allows developers to easily adjust contraints.
 
-For Project Documentation the simple **md** markdown is perferct to simple and easy to access information.
+**Node.js**
 
 To create this login **Node.js** was utilized because it is build from JavaScript which makes it perfect for web environments. Node.js is event-driven, non-blocking as well as lightweight and efficient. One big advantage of Node.js is its lage package ecosystem beause it is one of the biggest in the open source world.
 
-Vue.js 
+**Vue.js**
 
+Vue.js is a powerful JavaScript framework 
+
+### Documentation
+
+**Markdown**
+
+For Project Documentation the simple **md** markdown is perferct in order to simply create and update technical information. Markdown requires little resources and is compatible with popular IDE such as Microsoft Visual Studio.
 
 ## Installaction Instructions
 Fork the repo then clone it to your local machine.
